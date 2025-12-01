@@ -2,10 +2,6 @@
 
 This repository contains the implementation of **LAD** (**L**LM-**A**dapter enhanced conditional **D**iffusion model) for accurate network traffic prediction.
 
-## ⚠️ Important Notice
-
-> **Due to commercial confidentiality and pending patent filings associated with this industry collaboration, only a partial implementation of our model is currently available. The full source code and data will be made publicly available upon patent filing and paper acceptance.**
-
 ## 📦 Data & Pretrained Model (Qwen2-0.5B)
 
 Due to the large file size, the dataset and the pretrained LLM weights (**Qwen2-0.5B**) are hosted externally.
@@ -66,4 +62,9 @@ LAD/
 │   └── metrics.py
 │   └── training_1117.py     
 ├── requirements.txt  
-└── README.md  
+└── README.md
+```
+
+## ⚠️ Important Notice
+
+> **Due to commercial confidentiality and pending patent filings associated with this industry collaboration, only a partial implementation of our model is currently available. The full source code and data will be made publicly available upon patent filing and paper acceptance.**
