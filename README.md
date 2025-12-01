@@ -45,3 +45,25 @@ Please run the following command in the terminal to start the model:
 # 1.For Abilene Dataset
 python run.py --config configs/config.yaml
 ```
+
+## 📂 Project Structure
+```text
+LAD/
+├── configs/                    
+│   └── config.yaml
+├── model/             
+│   ├── __init__.py 
+│   └── adapter_enhanced_1117.py
+│   └── condition_encoder_enhanced_1117.py
+│   └── diffusion_unet_enhanced_1117.py
+│   └── qwen_adapter_model_image_enhanced_1117.py
+│   └── vision_encoder_enhanced_1117.py
+├── scripts/                       
+│   ├── __init__.py    
+│   └── traffic_image_dataset.py  
+├── utils/                       
+│   ├── __init__.py    
+│   └── metrics.py
+│   └── training_1117.py     
+├── requirements.txt  
+└── README.md  
